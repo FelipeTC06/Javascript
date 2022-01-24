@@ -17,5 +17,15 @@
     <h1>Estudando DOM</h1>
     <p>Aqui se ve o resultado</p>
     <p>Aprendendo a usar <strong>DOM</strong> em JavaScript</p>
+    <div id="msg">Clique em min!</div>
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0]
+        window.document.write(p1.innerText)
+        p1.style.color = 'black'
+        var d = window.document.getElementById('msg')
+        d.style.width = '300px'
+        d.style.border = '1px solid black'
+        d.innerText = 'Esperando...'
+    </script>
 </body>
 </html>
