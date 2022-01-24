@@ -20,10 +20,10 @@
             var pa = pais.value
             var PA = pa.toUpperCase()
             result.innerHTML = `<p>Voce está no(a) ${PA}</p>`
-            if(PA != BRASIL){
-                result.innerHTML += `<p>Você é Estrangeiro</p>`
-            }else{
+            if(PA == 'BRASIL'){
                 result.innerHTML += `<p>Você é Brasileiro</p>`
+            }else{
+                result.innerHTML += `<p>Você é Estrangeiro</p>`
             }
         }
     </script>
