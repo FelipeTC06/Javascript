@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(138, 138, 241);
+}
+header{
+    text-align: center;
+    color: white;
+}
+section{
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 8px;
+    width: 400px;
+    
+}
+div#msg{
+    margin-bottom: 10px;
+}
+div#foto{
+    margin-bottom: 20px;
+}
+footer{
+    text-align: center;
+}
