@@ -10,15 +10,15 @@ header{
     color: white;
 }
 section{
-    text-align: center;
+    
     margin: auto;
     background-color: white;
     border-radius: 20px;
     border: 1px solid black;
     padding: 8px;
-    width: 500px;
-    
+    width: 500px; 
 }
+
 
 footer{
     text-align: center;
